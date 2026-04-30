@@ -1,0 +1,37 @@
+contract_id,contract_name,contract_type,month,cost_incurred,revenue,gross_margin,margin_pct,fee_rate
+C001,CMS Marketplace State Security & Privacy Support,CPFF,2024-01,256079.31,274004.86,17925.55,6.54,0.07
+C001,CMS Marketplace State Security & Privacy Support,CPFF,2024-02,294971.6,315619.61,20648.01,6.54,0.07
+C001,CMS Marketplace State Security & Privacy Support,CPFF,2024-03,345039.64,369192.41,24152.77,6.54,0.07
+C001,CMS Marketplace State Security & Privacy Support,CPFF,2024-04,367177.08,392879.48,25702.4,6.54,0.07
+C001,CMS Marketplace State Security & Privacy Support,CPFF,2024-05,387708.4,414847.99,27139.59,6.54,0.07
+C001,CMS Marketplace State Security & Privacy Support,CPFF,2024-06,423665.7,453322.3,29656.6,6.54,0.07
+C001,CMS Marketplace State Security & Privacy Support,CPFF,2024-07,415793.4,444898.94,29105.54,6.54,0.07
+C001,CMS Marketplace State Security & Privacy Support,CPFF,2024-08,449264.73,480713.26,31448.53,6.54,0.07
+C001,CMS Marketplace State Security & Privacy Support,CPFF,2024-09,436150.28,466680.8,30530.52,6.54,0.07
+C001,CMS Marketplace State Security & Privacy Support,CPFF,2024-10,366526.17,392183.0,25656.83,6.54,0.07
+C001,CMS Marketplace State Security & Privacy Support,CPFF,2024-11,257797.99,275843.85,18045.86,6.54,0.07
+C001,CMS Marketplace State Security & Privacy Support,CPFF,2024-12,214493.47,229508.01,15014.54,6.54,0.07
+C002,DHS Program Management & Consulting Support,T&M,2024-01,66924.6,73617.06,6692.46,9.09,0.1
+C002,DHS Program Management & Consulting Support,T&M,2024-02,77112.35,84823.58,7711.23,9.09,0.1
+C002,DHS Program Management & Consulting Support,T&M,2024-03,89379.7,98317.67,8937.97,9.09,0.1
+C002,DHS Program Management & Consulting Support,T&M,2024-04,86154.81,94770.29,8615.48,9.09,0.1
+C002,DHS Program Management & Consulting Support,T&M,2024-05,99613.08,109574.39,9961.31,9.09,0.1
+C002,DHS Program Management & Consulting Support,T&M,2024-06,96593.73,106253.1,9659.37,9.09,0.1
+C002,DHS Program Management & Consulting Support,T&M,2024-07,103070.28,113377.31,10307.03,9.09,0.1
+C002,DHS Program Management & Consulting Support,T&M,2024-08,108387.49,119226.24,10838.75,9.09,0.1
+C002,DHS Program Management & Consulting Support,T&M,2024-09,94493.29,103942.62,9449.33,9.09,0.1
+C002,DHS Program Management & Consulting Support,T&M,2024-10,77435.81,85179.39,7743.58,9.09,0.1
+C002,DHS Program Management & Consulting Support,T&M,2024-11,47517.26,52268.99,4751.73,9.09,0.1
+C002,DHS Program Management & Consulting Support,T&M,2024-12,19710.62,21681.68,1971.06,9.09,0.1
+C003,NIH Hosting & Storage IT Support Services,FFP,2024-01,217303.15,243379.53,26076.38,10.71,0.12
+C003,NIH Hosting & Storage IT Support Services,FFP,2024-02,243050.52,272216.58,29166.06,10.71,0.12
+C003,NIH Hosting & Storage IT Support Services,FFP,2024-03,286122.86,320457.6,34334.74,10.71,0.12
+C003,NIH Hosting & Storage IT Support Services,FFP,2024-04,309688.03,346850.59,37162.56,10.71,0.12
+C003,NIH Hosting & Storage IT Support Services,FFP,2024-05,316712.7,354718.22,38005.52,10.71,0.12
+C003,NIH Hosting & Storage IT Support Services,FFP,2024-06,344139.33,385436.05,41296.72,10.71,0.12
+C003,NIH Hosting & Storage IT Support Services,FFP,2024-07,345302.06,386738.31,41436.25,10.71,0.12
+C003,NIH Hosting & Storage IT Support Services,FFP,2024-08,381682.03,427483.87,45801.84,10.71,0.12
+C003,NIH Hosting & Storage IT Support Services,FFP,2024-09,353505.88,395926.59,42420.71,10.71,0.12
+C003,NIH Hosting & Storage IT Support Services,FFP,2024-10,343664.54,384904.28,41239.74,10.71,0.12
+C003,NIH Hosting & Storage IT Support Services,FFP,2024-11,208528.29,233551.68,25023.39,10.71,0.12
+C003,NIH Hosting & Storage IT Support Services,FFP,2024-12,136764.81,153176.59,16411.78,10.71,0.12

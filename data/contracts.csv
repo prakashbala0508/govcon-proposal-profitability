@@ -1,0 +1,4 @@
+contract_id,award_id,contract_name,agency,contract_type,contract_ceiling,fee_rate,status
+C001,75FCMC22F0046,CMS Marketplace State Security & Privacy Support,HHS / Centers for Medicare & Medicaid Services,CPFF,8070000,0.07,Active
+C002,70T02021F7560N005,DHS Program Management & Consulting Support,Dept. of Homeland Security,T&M,1010000,0.1,Active
+C003,75N97023F00001,NIH Hosting & Storage IT Support Services,HHS / National Institutes of Health,FFP,7340000,0.12,Active

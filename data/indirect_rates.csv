@@ -1,0 +1,4 @@
+rate_type,base_rate,low,high
+Fringe,0.32,0.29,0.36
+Overhead,0.45,0.41,0.51
+G&A,0.12,0.1,0.15
