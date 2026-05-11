@@ -115,7 +115,7 @@ if module == "Proposal Cost Build":
         st.markdown("**Indirect Cost Stack**")
         st.caption("Rates benchmarked to DCAA provisional rate guidance for NAICS 541.")
         fringe_cost   = total_dl * fringe_base
-        overhead_cost = total_dl * overhead_base
+        overhead_cost = (total_dl + fringe_cost) * overhead_base
         subtotal      = total_dl + fringe_cost + overhead_cost
         ga_cost       = subtotal * ga_base
         tci           = subtotal + ga_cost
@@ -202,7 +202,7 @@ elif module == "Indirect Rate Scenario Analysis":
         st.caption("Source: DCAA provisional rate guidance NAICS 541")
 
     fringe_cost   = total_dl * fringe
-    overhead_cost = total_dl * overhead
+    overhead_cost = (total_dl + fringe_cost) * overhead
     subtotal      = total_dl + fringe_cost + overhead_cost
     ga_cost       = subtotal * ga
     tci           = subtotal + ga_cost
@@ -210,7 +210,9 @@ elif module == "Indirect Rate Scenario Analysis":
     total_price   = tci + fee_amt
     margin_pct    = fee_amt / total_price * 100
 
-    base_subtotal = total_dl * (1 + fringe_base + overhead_base)
+    base_fringe   = total_dl * fringe_base
+    base_overhead = (total_dl + base_fringe) * overhead_base
+    base_subtotal = total_dl + base_fringe + base_overhead
     base_tci      = base_subtotal * (1 + ga_base)
     base_total    = base_tci * (1 + fee_rate)
 
@@ -229,9 +231,12 @@ elif module == "Indirect Rate Scenario Analysis":
 
         prices = []
         for f,o,g in zip(fringe_s, overhead_s, ga_s):
-            sub = total_dl * (1 + f + o)
-            t   = sub * (1 + g)
-            prices.append(t * (1 + fee_rate))
+            fringe_amt   = total_dl * f
+            overhead_amt = (total_dl + fringe_amt) * o
+            subtotal_s   = total_dl + fringe_amt + overhead_amt
+            ga_amt       = subtotal_s * g
+            tci_s        = subtotal_s + ga_amt
+            prices.append(tci_s * (1 + fee_rate))
 
         fig = go.Figure(go.Bar(
             x=scenarios, y=prices, marker_color=bar_colors,
